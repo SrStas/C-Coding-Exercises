@@ -5,3 +5,10 @@ C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\Stereoty
 C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.pdb
 C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.exe
 C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.pdb
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csprojAssemblyReference.cache
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csproj.CoreCompileInputs.cache
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.exe
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.pdb
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe.config
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.pdb

@@ -19,30 +19,56 @@ namespace StereotypicalCoding
     }
     class AddTwoNumbersLinkedList
     {
-        public LinkedList<int> sum(LinkedList<int> inList1, LinkedList<int> inList2)
+        public ListNode sum(ListNode l1, ListNode l2)
         {
-            LinkedList<int> sumList = new LinkedList<int>();
+            ListNode rootListNode = new ListNode(0);
+            ListNode currentListNodeSum = rootListNode;
 
-            int length = inList1.Count > inList2.Count ? inList1.Count : inList2.Count;
-            int tmpCarry = 0;
-            for (int i = 0; i < length; i++)
+            ListNode currentListNodeL1 = l1;
+            ListNode currentListNodeL2 = l2;
+
+            while (!(currentListNodeL1 == null && currentListNodeL2 == null))
             {
-                int tmpSum = inList1.First.Value + inList2.First.Value + tmpCarry;
-                tmpCarry = 0;
-                if (tmpSum >= 10)
+                if (currentListNodeSum == null)
                 {
-                    tmpSum = tmpSum - 10;
-                    tmpCarry = 1;
-
+                    currentListNodeSum = new ListNode(0);
                 }
 
-                sumList.AddLast(tmpSum);
-                inList1.RemoveFirst();
-                inList2.RemoveFirst();
+                int firsVal = currentListNodeL1 == null ? 0 : currentListNodeL1.val;
+                int secondVal = currentListNodeL2 == null ? 0 : currentListNodeL2.val;
+                int sum = firsVal + secondVal  + currentListNodeSum.val;
+                int cry = sum / 10;
+                sum = sum % 10;
+                
+                if (cry > 0)
+                {
+                    
+                    currentListNodeSum.val = sum;
+                    currentListNodeSum.next = new ListNode(cry);
+
+                }
+                else
+                {
+                    currentListNodeSum.val = sum;
+                    //if (!(currentListNodeL1 == null && currentListNodeL2 == null))
+                    //{
+                    //    if (!(currentListNodeL1.next == null && currentListNodeL2.next == null))
+                    //    {
+                            currentListNodeSum.next = new ListNode(cry);
+                    //    }
+                    //}
+                    
+                    
+                }
+
+                currentListNodeSum = currentListNodeSum.next;
+                currentListNodeL2 = currentListNodeL2 == null ? null : currentListNodeL2.next;
+                currentListNodeL1 = currentListNodeL1 == null ? null : currentListNodeL1.next;
+
             }
 
+            return rootListNode;
 
-            return sumList;
 
         }
 
@@ -60,7 +86,7 @@ namespace StereotypicalCoding
         //    {
         //        ListNode tempListNode;
         //        int tmpSum = l1.val + l2.val;
-                
+
         //        if (tmpSum >= 10)
         //        {
         //            tmpSum = tmpSum - 10;
@@ -73,7 +99,7 @@ namespace StereotypicalCoding
         //            tempListNode = new ListNode(tmpSum);
         //            tempListNode.next = new ListNode(0);
         //        }
-                
+
         //    }
         //}
     }

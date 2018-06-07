@@ -20,10 +20,40 @@ namespace StereotypicalCoding
         static void Main(string[] args)
         {
             AddTwoNumbersLinkedList runner = new AddTwoNumbersLinkedList();
-            LinkedList<int> list1 = new LinkedListWithInit<int> { 2, 4, 3 };
-            LinkedList<int> list2 = new LinkedListWithInit<int> { 5, 6, 4 };
 
-            var sum =runner.sum(list1, list2);
+            ListNode rooList1;
+            ListNode rooList2;
+
+            //ListNode list1 = new ListNode(2);
+            ////    .next = new ListNode(4).next = new ListNode(3);
+            //ListNode list2 = new ListNode(5);
+            ////.next = new ListNode(6).next = new ListNode(4);
+
+            //rooList1 = list1;
+            //    list1.next = new ListNode(4);
+            //list1 = list1.next;
+            //list1.next = new ListNode(3);
+
+            //rooList2 = list2;
+            //list2.next = new ListNode(6);
+            //list2 = list2.next;
+            //list2.next = new ListNode(4);
+
+            ListNode list1 = new ListNode(9);
+            //    .next = new ListNode(4).next = new ListNode(3);
+            ListNode list2 = new ListNode(0);
+            //.next = new ListNode(6).next = new ListNode(4);
+
+            rooList1 = list1;
+            list1.next = new ListNode(1);
+            list1 = list1.next;
+            list1.next = new ListNode(6);
+
+            rooList2 = list2;
+            
+
+
+            var sum =runner.sum(rooList1, rooList2);
             //ValidParentheses runner = new ValidParentheses();
             //string inString = "([()[]({{}})[{}]])";
             //if (!(inString.Length % 2 == 0))

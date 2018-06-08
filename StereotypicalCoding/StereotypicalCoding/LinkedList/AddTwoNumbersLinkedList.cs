@@ -36,39 +36,27 @@ namespace StereotypicalCoding
 
                 int firsVal = currentListNodeL1 == null ? 0 : currentListNodeL1.val;
                 int secondVal = currentListNodeL2 == null ? 0 : currentListNodeL2.val;
-                int sum = firsVal + secondVal  + currentListNodeSum.val;
+                int sum = firsVal + secondVal  + (currentListNodeSum == null? 0: currentListNodeSum.val);
                 int cry = sum / 10;
                 sum = sum % 10;
-                
-                if (cry > 0)
-                {
-                    
-                    currentListNodeSum.val = sum;
-                    currentListNodeSum.next = new ListNode(cry);
-
-                }
-                else
-                {
-                    currentListNodeSum.val = sum;
-                    //if (!(currentListNodeL1 == null && currentListNodeL2 == null))
-                    //{
-                    //    if (!(currentListNodeL1.next == null && currentListNodeL2.next == null))
-                    //    {
-                            currentListNodeSum.next = new ListNode(cry);
-                    //    }
-                    //}
-                    
-                    
-                }
-
-                currentListNodeSum = currentListNodeSum.next;
                 currentListNodeL2 = currentListNodeL2 == null ? null : currentListNodeL2.next;
                 currentListNodeL1 = currentListNodeL1 == null ? null : currentListNodeL1.next;
+                currentListNodeSum.val = sum;
+                if (cry>0)
+                {
+                    
+                    currentListNodeSum.next = new ListNode(cry);
+                }
+
+                if (currentListNodeL1 != null || currentListNodeL2 !=null)
+                {
+                    currentListNodeSum.next = new ListNode(cry);
+                }
+                currentListNodeSum = currentListNodeSum.next;
 
             }
-
+            
             return rootListNode;
-
 
         }
 

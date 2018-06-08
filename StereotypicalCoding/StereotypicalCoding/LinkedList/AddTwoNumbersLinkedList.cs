@@ -27,7 +27,7 @@ namespace StereotypicalCoding
             ListNode currentListNodeL1 = l1;
             ListNode currentListNodeL2 = l2;
 
-            while (!(currentListNodeL1 == null && currentListNodeL2 == null))
+            while (true)
             {
                 if (currentListNodeSum == null)
                 {
@@ -48,10 +48,11 @@ namespace StereotypicalCoding
                     currentListNodeSum.next = new ListNode(cry);
                 }
 
-                if (currentListNodeL1 != null || currentListNodeL2 !=null)
+                if (currentListNodeL1 != null || currentListNodeL2 != null)
                 {
                     currentListNodeSum.next = new ListNode(cry);
                 }
+                else break;
                 currentListNodeSum = currentListNodeSum.next;
 
             }

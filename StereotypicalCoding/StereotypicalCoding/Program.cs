@@ -8,16 +8,17 @@ namespace StereotypicalCoding
 {
     class Program
     {
-        public class LinkedListWithInit<T> : LinkedList<T>
+        static void Main(string[] args)
         {
-            public void Add(T item)
-            {
-                ((ICollection<T>)this).Add(item);
-            }
+
+            TwoSum();
+            
+
+            Console.WriteLine("Done!");
+            Console.ReadKey();
         }
 
-        
-        static void Main(string[] args)
+        public static void LinkedList()
         {
             AddTwoNumbersLinkedList runner = new AddTwoNumbersLinkedList();
 
@@ -50,10 +51,14 @@ namespace StereotypicalCoding
             list1.next = new ListNode(6);
 
             rooList2 = list2;
-            
 
 
-            var sum =runner.sum(rooList1, rooList2);
+
+            var sum = runner.sum(rooList1, rooList2);
+        }
+
+        public static void Find()
+        {
             //ValidParentheses runner = new ValidParentheses();
             //string inString = "([()[]({{}})[{}]])";
             //if (!(inString.Length % 2 == 0))
@@ -65,9 +70,26 @@ namespace StereotypicalCoding
             //    Console.WriteLine("false");
             //else
             //    Console.WriteLine("true");
+        }
 
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+        public static void TwoSum()
+        {
+            TwoSum runner = new TwoSum();
+
+            //int[] nums = new[] {2, 7, 11, 15};
+            //int target = 9;
+            int[] nums = new[] { 3, 2, 4 };
+            int target = 6;
+            var val = runner.sum(nums, target);
+        }
+
+        public static void Reverse()
+        {
+            ReverseInteger run = new ReverseInteger();
+
+            int num = -123;
+
+            run.Reverse(num);
         }
     }
 }

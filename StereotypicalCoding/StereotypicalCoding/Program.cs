@@ -11,13 +11,18 @@ namespace StereotypicalCoding
         static void Main(string[] args)
         {
 
-            TwoSum();
-            
+            LongestPalindrome();
+
 
             Console.WriteLine("Done!");
             Console.ReadKey();
         }
 
+        public static void LongestPalindrome()
+        {
+            LongestPalindromicSubstring runner = new LongestPalindromicSubstring();
+            runner.LongestPalindrome("");
+        }
         public static void LinkedList()
         {
             AddTwoNumbersLinkedList runner = new AddTwoNumbersLinkedList();
@@ -87,9 +92,21 @@ namespace StereotypicalCoding
         {
             ReverseInteger run = new ReverseInteger();
 
-            int num = -123;
+            int num = 120;
 
             run.Reverse(num);
         }
+
+        public static void LongestSubstringWithoutRepeatingCharacters()
+        {
+            LongestSubstringWithoutRepeatingCharacters runner = new LongestSubstringWithoutRepeatingCharacters();
+            string input = "abcabcbb";
+            input = "asjrgapa";
+            //runner.Run(input);
+            runner.Run2(input);
+
+        }
+
+
     }
 }

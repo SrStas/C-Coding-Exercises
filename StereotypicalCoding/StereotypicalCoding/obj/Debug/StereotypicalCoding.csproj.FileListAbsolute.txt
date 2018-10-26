@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/Medved/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/obj/Debug/StereotypicalCoding.csprojAssemblyReference.cache
 C:/Users/Medved/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/obj/Debug/StereotypicalCoding.csproj.CoreCompileInputs.cache
 C:/Users/Medved/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/bin/Debug/StereotypicalCoding.exe.config
@@ -19,3 +20,26 @@ C:/Users/Stas/Source/Repos/C-Coding-Exercises/StereotypicalCoding/StereotypicalC
 /Users/stas/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/obj/Debug/StereotypicalCoding.csproj.CoreCompileInputs.cache
 /Users/stas/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/obj/Debug/StereotypicalCoding.exe
 /Users/stas/Documents/GitHub/C-Coding-Exercises/StereotypicalCoding/StereotypicalCoding/obj/Debug/StereotypicalCoding.pdb
+=======
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csprojAssemblyReference.cache
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csproj.CoreCompileInputs.cache
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe.config
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.pdb
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.exe
+C:\Users\Medved\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.pdb
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csprojAssemblyReference.cache
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csproj.CoreCompileInputs.cache
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.exe
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.pdb
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe.config
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe
+C:\Users\Stas\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.pdb
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe.config
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.exe
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\bin\Debug\StereotypicalCoding.pdb
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csprojAssemblyReference.cache
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.csproj.CoreCompileInputs.cache
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.exe
+C:\Users\MedvedMSI\Source\Repos\C-Coding-Exercises\StereotypicalCoding\StereotypicalCoding\obj\Debug\StereotypicalCoding.pdb
+>>>>>>> 326ddfb3d2f3bfb34c088175e6d4c54b4ed7534c

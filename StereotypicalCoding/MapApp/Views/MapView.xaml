@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="525" d:DesignWidth="800">
     <Grid>
-        <esri:SceneView x:Name="MySceneView" />
+        
         
         <Border Width="300" Height="100" Background="Gray" Margin="490,10,10,415" >
             <Grid >

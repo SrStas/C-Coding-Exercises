@@ -552,10 +552,12 @@
   },
   "libraries": {
     "Esri.ArcGISRuntime.WPF/100.4.0": {
-      "sha512": "7AQSZm1DlgIuWK2e0hqBBGUCuFWtZTPFeMbdah87APCSl7lRiwJPFJMbojqlCBsxy+AVfkYRVfkXZHzJbTQ5gw==",
+      "sha512": "F1DhF2goQZ2uKl4V5aR5XGPAdplLDoQWryZ0HgCZmWjDde1pLqpK0K8Jekb9SNbLm47TbBQ5DhsfIEzLFUhmhQ==",
       "type": "package",
       "path": "esri.arcgisruntime.wpf/100.4.0",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/net461/Esri.ArcGISRuntime.WPF.targets",
         "esri.arcgisruntime.wpf.100.4.0.nupkg.sha512",
@@ -787,30 +789,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MedvedMSI\\.nuget\\packages\\": {}
+    "C:\\Users\\stas_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MedvedMSI\\source\\repos\\wpfSkyx\\MapApp\\MapApp.csproj",
+      "projectUniqueName": "C:\\Users\\stas_\\Documents\\GitHub\\C-Coding-Exercises\\StereotypicalCoding\\MapApp\\MapApp.csproj",
       "projectName": "MapApp",
-      "projectPath": "C:\\Users\\MedvedMSI\\source\\repos\\wpfSkyx\\MapApp\\MapApp.csproj",
-      "packagesPath": "C:\\Users\\MedvedMSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MedvedMSI\\source\\repos\\wpfSkyx\\MapApp\\obj\\",
+      "projectPath": "C:\\Users\\stas_\\Documents\\GitHub\\C-Coding-Exercises\\StereotypicalCoding\\MapApp\\MapApp.csproj",
+      "packagesPath": "C:\\Users\\stas_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stas_\\Documents\\GitHub\\C-Coding-Exercises\\StereotypicalCoding\\MapApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\MedvedMSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Users\\stas_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\MedvedMSI\\AppData\\Local\\Esri\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

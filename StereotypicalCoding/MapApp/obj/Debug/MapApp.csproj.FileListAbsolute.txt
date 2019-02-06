@@ -228,3 +228,13 @@ C:\Users\MedvedMSI\source\repos\wpfSkyx\MapApp\obj\Debug\MapApp.csproj.CopyCompl
 C:\Users\MedvedMSI\source\repos\wpfSkyx\MapApp\obj\Debug\MapApp.exe
 C:\Users\MedvedMSI\source\repos\wpfSkyx\MapApp\obj\Debug\MapApp.pdb
 C:\Users\MedvedMSI\source\repos\wpfSkyx\MapApp\obj\Debug\MapApp.csprojAssemblyReference.cache
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp.csprojAssemblyReference.cache
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MainWindow.g.cs
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\App.g.cs
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp_MarkupCompile.cache
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp_MarkupCompile.lref
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp.exe
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp.pdb
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\Views\MapView.g.cs
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\StereotypicalCoding\MapApp\obj\Debug\MapApp_Content.g.cs

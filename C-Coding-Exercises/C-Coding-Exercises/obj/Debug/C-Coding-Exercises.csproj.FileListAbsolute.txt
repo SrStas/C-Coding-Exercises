@@ -1,0 +1,7 @@
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\bin\Debug\C-Coding-Exercises.exe.config
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\bin\Debug\C-Coding-Exercises.exe
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\bin\Debug\C-Coding-Exercises.pdb
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\obj\Debug\C-Coding-Exercises.csprojAssemblyReference.cache
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\obj\Debug\C-Coding-Exercises.csproj.CoreCompileInputs.cache
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\obj\Debug\C-Coding-Exercises.exe
+C:\Users\stas_\Documents\GitHub\C-Coding-Exercises\C-Coding-Exercises\C-Coding-Exercises\obj\Debug\C-Coding-Exercises.pdb

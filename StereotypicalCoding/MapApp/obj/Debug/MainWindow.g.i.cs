@@ -9,13 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Esri.ArcGISRuntime;
-using Esri.ArcGISRuntime.Data;
-using Esri.ArcGISRuntime.Location;
-using Esri.ArcGISRuntime.Mapping;
-using Esri.ArcGISRuntime.Symbology;
-using Esri.ArcGISRuntime.UI;
-using Esri.ArcGISRuntime.UI.Controls;
 using MapApp;
 using MapApp.Views;
 using System;
